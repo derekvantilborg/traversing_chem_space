@@ -12,7 +12,6 @@ from rdkit.Chem.Scaffolds import MurckoScaffold
 from rdkit import Chem
 from tqdm import tqdm
 from typing import Any
-import h5py
 from config import ROOT_DIR
 
 

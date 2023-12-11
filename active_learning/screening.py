@@ -12,9 +12,8 @@ from active_learning.nn import Ensemble
 from active_learning.data_prep import MasterDataset
 from active_learning.data_handler import Handler
 from active_learning.utils import Evaluate, to_torch_dataloader
-from active_learning.acquisition import Acquisition, logits_to_pred
+from active_learning.acquisition import Acquisition
 from tqdm.auto import tqdm
-import torch
 from torch.utils.data import WeightedRandomSampler
 from math import ceil
 
