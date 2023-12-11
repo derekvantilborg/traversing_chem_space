@@ -27,7 +27,6 @@ class Acquisition:
                                    'dynamic': dynamic_exploration,
                                    'dynamicbald': dynamic_exploration_bald,
                                    'bald': bald,
-                                   'batch_bald': batch_bald,
                                    'similarity': similarity_search}
 
         assert method in self.acquisition_method.keys(), f"Specified 'method' not available. " \
